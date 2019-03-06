@@ -1,0 +1,123 @@
+body {
+  background: #000;
+  height: 600px;
+  color: #fff;
+  font-family: 'Teko', sans-serif; }
+
+main {
+  width: 800px;
+  height: 610px;
+  margin: 0 auto;
+  background: rgba(25, 24, 30, 0.4);
+  z-index: 2;
+  overflow: hidden; }
+  main .bg {
+    width: 900px;
+    height: 620px;
+    background-image: url(image/main.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-filter: brightness(20%) blur(1px);
+    filter: brightness(20%) blur(1px);
+    position: absolute;
+    top: 0;
+    z-index: 2; }
+  main .content {
+    z-index: 3;
+    background: -webkit-gradient(linear, left top, right bottom, from(#1a191f), color-stop(#25242c), color-stop(#2f2f39), color-stop(#3b3a47), to(#464656));
+    background: -webkit-linear-gradient(left top, #1a191f, #25242c, #2f2f39, #3b3a47, #464656);
+    background: -o-linear-gradient(left top, #1a191f, #25242c, #2f2f39, #3b3a47, #464656);
+    background: linear-gradient(to right bottom, #1a191f, #25242c, #2f2f39, #3b3a47, #464656);
+    width: 740px;
+    height: 450px;
+    position: absolute;
+    top: 10%;
+    margin: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    main .content .wrap {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 640px;
+      padding: 20px 0 40px 0; }
+      main .content .wrap .content_logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        font-size: 13px; }
+        main .content .wrap .content_logo .author {
+          color: #64646B; }
+      main .content .wrap .content_main {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        height: 345px;
+        z-index: 4; }
+        main .content .wrap .content_main .left {
+          background: #fff;
+          width: 240px; }
+        main .content .wrap .content_main .right {
+          background: -webkit-gradient(linear, left bottom, right top, from(#1a191f), color-stop(#25242c), color-stop(#2f2f39), color-stop(#3b3a47), to(#464656));
+          background: -webkit-linear-gradient(left bottom, #1a191f, #25242c, #2f2f39, #3b3a47, #464656);
+          background: -o-linear-gradient(left bottom, #1a191f, #25242c, #2f2f39, #3b3a47, #464656);
+          background: linear-gradient(to right top, #1a191f, #25242c, #2f2f39, #3b3a47, #464656);
+          width: 400px; }
+      main .content .wrap .content_main2 {
+        background: blue;
+        width: 530px;
+        height: 250px;
+        z-index: 5;
+        position: absolute;
+        top: 100px;
+        left: 100px; }
+        main .content .wrap .content_main2 .between {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          background: yellow;
+          width: 100%;
+          height: 20px; }
+    main .content .content_width {
+      background: brown;
+      width: 740px;
+      height: 345px;
+      z-index: 3;
+      position: absolute;
+      top: 54px; }
+    main .content .see_him {
+      width: 290px;
+      height: 470px;
+      background-image: url(image/IronMAN.png);
+      background-size: 80%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: absolute;
+      z-index: 100;
+      top: 60px;
+      left: 140px; }

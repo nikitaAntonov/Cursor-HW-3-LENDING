@@ -1,0 +1,101 @@
+$hover-color: #64646B
+body
+	background: #000
+	height: 600px
+	color: #fff
+	font-family: 'Teko', sans-serif
+
+main
+	width: 800px
+	height: 610px
+	margin: 0 auto
+	background: rgba(25,24,30,0.4)
+	z-index: 2
+	overflow: hidden
+	.bg
+		width: 900px
+		height: 620px
+		background-image: url(image/main.png)
+		background-size: 90%
+		background-repeat: no-repeat
+		background-position: center center
+		filter: brightness(20%) blur(1px)
+		position: absolute
+		top: 0
+		z-index: 2
+	.content
+		z-index: 3
+		background: linear-gradient(to right bottom, #1a191f, #25242c, #2f2f39, #3b3a47, #464656)
+		width: 740px
+		height: 450px
+		position: absolute
+		top: 10%
+		margin: 30px
+		display: flex
+
+		.wrap
+			display: flex
+			flex-direction: column
+			margin: 0 auto
+			width: 640px
+			padding: 20px 0 40px 0
+
+			.content_logo
+				display: flex
+				flex-direction: row
+				justify-content: space-between
+				font-size: 13px
+				.author
+					color: $hover-color
+
+			.content_main
+				display: flex
+				flex-direction: row
+				height: 345px
+				z-index: 4
+				.left
+					background: #fff
+					width: 240px
+
+				.right
+					background: linear-gradient(to right top, #1a191f, #25242c, #2f2f39, #3b3a47, #464656)
+					width: 400px
+			.content_main2
+				background: blue
+				width: 530px
+				height: 250px
+				z-index: 5
+				position: absolute
+				top: 100px
+				left: 100px
+				.between
+					display: flex
+					flex-direction: row
+					justify-content: space-between
+					background: yellow
+					width: 100%
+					height: 20px
+		
+		.content_width
+			background: brown
+			width: 740px
+			height: 345px
+			z-index: 3
+			position: absolute
+			top: 54px
+
+
+
+		.see_him
+			width: 290px
+			height: 470px
+			background-image: url(image/IronMAN.png)
+			background-size: 80%
+			background-repeat: no-repeat
+			background-position: center center
+			position: absolute
+			z-index: 100
+			top: 60px
+			left: 140px
+
+
